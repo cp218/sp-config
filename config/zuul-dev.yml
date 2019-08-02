@@ -1,6 +1,11 @@
 99spring:
   application:
     name: zuul
+  rabbitmq:
+    host: 192.168.176.131
+    port: 5672
+    username: admin
+    password: admin
     
 server:
   port: 3001
